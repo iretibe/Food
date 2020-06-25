@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "KxuSxbI82ICRNQqHmuZJ2atA+0uZfdBzKN4wtgwrHGao75p51Js1DIox5m5ktNMjKSToW1zpT59pHCJwg28CrA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Somad\\source\\repos\\Food\\Food.Mobile\\Food.Mobile.iOS\\Food.Mobile.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Somad\\.nuget\\packages\\epoch.unix.timestamp\\2.0.0\\epoch.unix.timestamp.2.0.0.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}
