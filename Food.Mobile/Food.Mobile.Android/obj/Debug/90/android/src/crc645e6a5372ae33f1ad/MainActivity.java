@@ -20,8 +20,9 @@ public class MainActivity
 	public MainActivity ()
 	{
 		super ();
-		if (getClass () == MainActivity.class)
+		if (getClass () == MainActivity.class) {
 			mono.android.TypeManager.Activate ("Food.Mobile.Droid.MainActivity, Food.Mobile.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

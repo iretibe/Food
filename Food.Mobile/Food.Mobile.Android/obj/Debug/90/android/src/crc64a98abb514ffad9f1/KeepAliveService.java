@@ -19,8 +19,9 @@ public class KeepAliveService
 	public KeepAliveService ()
 	{
 		super ();
-		if (getClass () == KeepAliveService.class)
+		if (getClass () == KeepAliveService.class) {
 			mono.android.TypeManager.Activate ("Android.Support.CustomTabs.KeepAliveService, Xamarin.Android.Support.CustomTabs", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

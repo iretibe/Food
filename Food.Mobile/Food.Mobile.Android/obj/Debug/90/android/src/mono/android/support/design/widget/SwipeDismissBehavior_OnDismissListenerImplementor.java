@@ -21,8 +21,9 @@ public class SwipeDismissBehavior_OnDismissListenerImplementor
 	public SwipeDismissBehavior_OnDismissListenerImplementor ()
 	{
 		super ();
-		if (getClass () == SwipeDismissBehavior_OnDismissListenerImplementor.class)
+		if (getClass () == SwipeDismissBehavior_OnDismissListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Android.Support.Design.Widget.SwipeDismissBehavior+IOnDismissListenerImplementor, Xamarin.Android.Support.Design", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

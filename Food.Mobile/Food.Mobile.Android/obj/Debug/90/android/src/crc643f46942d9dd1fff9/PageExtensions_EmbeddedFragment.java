@@ -19,8 +19,9 @@ public class PageExtensions_EmbeddedFragment
 	public PageExtensions_EmbeddedFragment ()
 	{
 		super ();
-		if (getClass () == PageExtensions_EmbeddedFragment.class)
+		if (getClass () == PageExtensions_EmbeddedFragment.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.PageExtensions+EmbeddedFragment, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

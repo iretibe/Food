@@ -20,8 +20,9 @@ public class ActionMenuView_OnMenuItemClickListenerImplementor
 	public ActionMenuView_OnMenuItemClickListenerImplementor ()
 	{
 		super ();
-		if (getClass () == ActionMenuView_OnMenuItemClickListenerImplementor.class)
+		if (getClass () == ActionMenuView_OnMenuItemClickListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Android.Support.V7.Widget.ActionMenuView+IOnMenuItemClickListenerImplementor, Xamarin.Android.Support.v7.AppCompat", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

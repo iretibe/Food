@@ -20,8 +20,9 @@ public class NavigationView_OnNavigationItemSelectedListenerImplementor
 	public NavigationView_OnNavigationItemSelectedListenerImplementor ()
 	{
 		super ();
-		if (getClass () == NavigationView_OnNavigationItemSelectedListenerImplementor.class)
+		if (getClass () == NavigationView_OnNavigationItemSelectedListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Android.Support.Design.Widget.NavigationView+IOnNavigationItemSelectedListenerImplementor, Xamarin.Android.Support.Design", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

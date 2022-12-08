@@ -20,8 +20,9 @@ public class CancellationSignal_OnCancelListenerImplementor
 	public CancellationSignal_OnCancelListenerImplementor ()
 	{
 		super ();
-		if (getClass () == CancellationSignal_OnCancelListenerImplementor.class)
+		if (getClass () == CancellationSignal_OnCancelListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Android.Support.V4.OS.CancellationSignal+IOnCancelListenerImplementor, Xamarin.Android.Support.Compat", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

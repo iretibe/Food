@@ -22,8 +22,9 @@ public class ActionBar_TabListenerImplementor
 	public ActionBar_TabListenerImplementor ()
 	{
 		super ();
-		if (getClass () == ActionBar_TabListenerImplementor.class)
+		if (getClass () == ActionBar_TabListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Android.Support.V7.App.ActionBar+ITabListenerImplementor, Xamarin.Android.Support.v7.AppCompat", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

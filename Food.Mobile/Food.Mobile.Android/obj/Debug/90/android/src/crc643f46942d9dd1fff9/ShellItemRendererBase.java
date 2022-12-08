@@ -19,8 +19,9 @@ public abstract class ShellItemRendererBase
 	public ShellItemRendererBase ()
 	{
 		super ();
-		if (getClass () == ShellItemRendererBase.class)
+		if (getClass () == ShellItemRendererBase.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellItemRendererBase, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

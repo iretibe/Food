@@ -21,8 +21,9 @@ public class MenuItemHoverListenerImplementor
 	public MenuItemHoverListenerImplementor ()
 	{
 		super ();
-		if (getClass () == MenuItemHoverListenerImplementor.class)
+		if (getClass () == MenuItemHoverListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Android.Support.V7.Widget.IMenuItemHoverListenerImplementor, Xamarin.Android.Support.v7.AppCompat", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

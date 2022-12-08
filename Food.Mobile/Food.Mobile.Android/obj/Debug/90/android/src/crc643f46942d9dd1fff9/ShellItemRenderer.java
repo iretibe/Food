@@ -22,8 +22,9 @@ public class ShellItemRenderer
 	public ShellItemRenderer ()
 	{
 		super ();
-		if (getClass () == ShellItemRenderer.class)
+		if (getClass () == ShellItemRenderer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellItemRenderer, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

@@ -20,8 +20,9 @@ public class CustomTabsServiceConnectionImpl
 	public CustomTabsServiceConnectionImpl ()
 	{
 		super ();
-		if (getClass () == CustomTabsServiceConnectionImpl.class)
+		if (getClass () == CustomTabsServiceConnectionImpl.class) {
 			mono.android.TypeManager.Activate ("Android.Support.CustomTabs.CustomTabsServiceConnectionImpl, Xamarin.Android.Support.CustomTabs", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

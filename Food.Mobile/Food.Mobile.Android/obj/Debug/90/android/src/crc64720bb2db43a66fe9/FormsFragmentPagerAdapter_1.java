@@ -24,8 +24,9 @@ public class FormsFragmentPagerAdapter_1
 	public FormsFragmentPagerAdapter_1 (android.support.v4.app.FragmentManager p0)
 	{
 		super (p0);
-		if (getClass () == FormsFragmentPagerAdapter_1.class)
+		if (getClass () == FormsFragmentPagerAdapter_1.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1, Xamarin.Forms.Platform.Android", "Android.Support.V4.App.FragmentManager, Xamarin.Android.Support.Fragment", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

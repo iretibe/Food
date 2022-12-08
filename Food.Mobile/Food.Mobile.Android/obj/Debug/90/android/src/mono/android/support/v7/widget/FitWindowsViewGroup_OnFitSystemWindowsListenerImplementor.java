@@ -20,8 +20,9 @@ public class FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor
 	public FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor ()
 	{
 		super ();
-		if (getClass () == FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor.class)
+		if (getClass () == FitWindowsViewGroup_OnFitSystemWindowsListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Android.Support.V7.Widget.IFitWindowsViewGroupOnFitSystemWindowsListenerImplementor, Xamarin.Android.Support.v7.AppCompat", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

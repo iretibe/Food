@@ -20,8 +20,9 @@ public class ActionBar_OnNavigationListenerImplementor
 	public ActionBar_OnNavigationListenerImplementor ()
 	{
 		super ();
-		if (getClass () == ActionBar_OnNavigationListenerImplementor.class)
+		if (getClass () == ActionBar_OnNavigationListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Android.Support.V7.App.ActionBar+IOnNavigationListenerImplementor, Xamarin.Android.Support.v7.AppCompat", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

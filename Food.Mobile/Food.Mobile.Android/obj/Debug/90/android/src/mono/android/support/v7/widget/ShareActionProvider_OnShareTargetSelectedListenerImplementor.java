@@ -20,8 +20,9 @@ public class ShareActionProvider_OnShareTargetSelectedListenerImplementor
 	public ShareActionProvider_OnShareTargetSelectedListenerImplementor ()
 	{
 		super ();
-		if (getClass () == ShareActionProvider_OnShareTargetSelectedListenerImplementor.class)
+		if (getClass () == ShareActionProvider_OnShareTargetSelectedListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Android.Support.V7.Widget.ShareActionProvider+IOnShareTargetSelectedListenerImplementor, Xamarin.Android.Support.v7.AppCompat", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

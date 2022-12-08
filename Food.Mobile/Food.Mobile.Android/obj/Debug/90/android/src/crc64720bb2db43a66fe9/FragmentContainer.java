@@ -23,8 +23,9 @@ public class FragmentContainer
 	public FragmentContainer ()
 	{
 		super ();
-		if (getClass () == FragmentContainer.class)
+		if (getClass () == FragmentContainer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.AppCompat.FragmentContainer, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

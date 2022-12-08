@@ -20,8 +20,9 @@ public class AccessibilityManagerCompat_AccessibilityStateChangeListenerImplemen
 	public AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor ()
 	{
 		super ();
-		if (getClass () == AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor.class)
+		if (getClass () == AccessibilityManagerCompat_AccessibilityStateChangeListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Android.Support.V4.View.Accessibility.AccessibilityManagerCompat+IAccessibilityStateChangeListenerImplementor, Xamarin.Android.Support.Compat", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

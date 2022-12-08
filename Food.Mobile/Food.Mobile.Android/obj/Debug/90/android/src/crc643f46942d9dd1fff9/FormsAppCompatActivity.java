@@ -30,8 +30,9 @@ public class FormsAppCompatActivity
 	public FormsAppCompatActivity ()
 	{
 		super ();
-		if (getClass () == FormsAppCompatActivity.class)
+		if (getClass () == FormsAppCompatActivity.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.FormsAppCompatActivity, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

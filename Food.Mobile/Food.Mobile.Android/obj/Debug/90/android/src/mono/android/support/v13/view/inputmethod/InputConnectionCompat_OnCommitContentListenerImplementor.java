@@ -20,8 +20,9 @@ public class InputConnectionCompat_OnCommitContentListenerImplementor
 	public InputConnectionCompat_OnCommitContentListenerImplementor ()
 	{
 		super ();
-		if (getClass () == InputConnectionCompat_OnCommitContentListenerImplementor.class)
+		if (getClass () == InputConnectionCompat_OnCommitContentListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Android.Support.V13.View.Inputmethod.InputConnectionCompat+IOnCommitContentListenerImplementor, Xamarin.Android.Support.Compat", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

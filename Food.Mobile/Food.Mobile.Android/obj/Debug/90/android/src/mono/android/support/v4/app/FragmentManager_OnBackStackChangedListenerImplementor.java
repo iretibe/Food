@@ -20,8 +20,9 @@ public class FragmentManager_OnBackStackChangedListenerImplementor
 	public FragmentManager_OnBackStackChangedListenerImplementor ()
 	{
 		super ();
-		if (getClass () == FragmentManager_OnBackStackChangedListenerImplementor.class)
+		if (getClass () == FragmentManager_OnBackStackChangedListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Android.Support.V4.App.FragmentManager+IOnBackStackChangedListenerImplementor, Xamarin.Android.Support.Fragment", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

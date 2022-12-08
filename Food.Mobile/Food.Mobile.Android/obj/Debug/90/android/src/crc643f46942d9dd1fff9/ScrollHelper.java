@@ -19,15 +19,17 @@ public class ScrollHelper
 	public ScrollHelper ()
 	{
 		super ();
-		if (getClass () == ScrollHelper.class)
+		if (getClass () == ScrollHelper.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ScrollHelper, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public ScrollHelper (android.support.v7.widget.RecyclerView p0)
 	{
 		super ();
-		if (getClass () == ScrollHelper.class)
+		if (getClass () == ScrollHelper.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ScrollHelper, Xamarin.Forms.Platform.Android", "Android.Support.V7.Widget.RecyclerView, Xamarin.Android.Support.v7.RecyclerView", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

@@ -20,15 +20,17 @@ public class Toolbar_NavigationOnClickEventDispatcher
 	public Toolbar_NavigationOnClickEventDispatcher ()
 	{
 		super ();
-		if (getClass () == Toolbar_NavigationOnClickEventDispatcher.class)
+		if (getClass () == Toolbar_NavigationOnClickEventDispatcher.class) {
 			mono.android.TypeManager.Activate ("Android.Support.V7.Widget.Toolbar+NavigationOnClickEventDispatcher, Xamarin.Android.Support.v7.AppCompat", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 	public Toolbar_NavigationOnClickEventDispatcher (android.support.v7.widget.Toolbar p0)
 	{
 		super ();
-		if (getClass () == Toolbar_NavigationOnClickEventDispatcher.class)
+		if (getClass () == Toolbar_NavigationOnClickEventDispatcher.class) {
 			mono.android.TypeManager.Activate ("Android.Support.V7.Widget.Toolbar+NavigationOnClickEventDispatcher, Xamarin.Android.Support.v7.AppCompat", "Android.Support.V7.Widget.Toolbar, Xamarin.Android.Support.v7.AppCompat", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

@@ -21,8 +21,9 @@ public class ShellFragmentContainer
 	public ShellFragmentContainer ()
 	{
 		super ();
-		if (getClass () == ShellFragmentContainer.class)
+		if (getClass () == ShellFragmentContainer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.AppCompat.ShellFragmentContainer, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

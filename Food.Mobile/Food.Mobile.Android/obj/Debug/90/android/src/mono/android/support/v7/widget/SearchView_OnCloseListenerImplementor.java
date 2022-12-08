@@ -20,8 +20,9 @@ public class SearchView_OnCloseListenerImplementor
 	public SearchView_OnCloseListenerImplementor ()
 	{
 		super ();
-		if (getClass () == SearchView_OnCloseListenerImplementor.class)
+		if (getClass () == SearchView_OnCloseListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Android.Support.V7.Widget.SearchView+IOnCloseListenerImplementor, Xamarin.Android.Support.v7.AppCompat", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

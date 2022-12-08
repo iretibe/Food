@@ -21,8 +21,9 @@ public class MenuItemCompat_OnActionExpandListenerImplementor
 	public MenuItemCompat_OnActionExpandListenerImplementor ()
 	{
 		super ();
-		if (getClass () == MenuItemCompat_OnActionExpandListenerImplementor.class)
+		if (getClass () == MenuItemCompat_OnActionExpandListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Android.Support.V4.View.MenuItemCompat+IOnActionExpandListenerImplementor, Xamarin.Android.Support.Compat", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

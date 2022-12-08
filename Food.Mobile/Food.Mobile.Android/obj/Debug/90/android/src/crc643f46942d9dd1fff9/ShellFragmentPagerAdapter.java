@@ -24,8 +24,9 @@ public class ShellFragmentPagerAdapter
 	public ShellFragmentPagerAdapter (android.support.v4.app.FragmentManager p0)
 	{
 		super (p0);
-		if (getClass () == ShellFragmentPagerAdapter.class)
+		if (getClass () == ShellFragmentPagerAdapter.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellFragmentPagerAdapter, Xamarin.Forms.Platform.Android", "Android.Support.V4.App.FragmentManager, Xamarin.Android.Support.Fragment", this, new java.lang.Object[] { p0 });
+		}
 	}
 
 

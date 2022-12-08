@@ -20,8 +20,9 @@ public class DragStartHelper_OnDragStartListenerImplementor
 	public DragStartHelper_OnDragStartListenerImplementor ()
 	{
 		super ();
-		if (getClass () == DragStartHelper_OnDragStartListenerImplementor.class)
+		if (getClass () == DragStartHelper_OnDragStartListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Android.Support.V13.View.DragStartHelper+IOnDragStartListenerImplementor, Xamarin.Android.Support.Compat", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

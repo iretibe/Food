@@ -26,8 +26,9 @@ public class ShellSectionRenderer
 	public ShellSectionRenderer ()
 	{
 		super ();
-		if (getClass () == ShellSectionRenderer.class)
+		if (getClass () == ShellSectionRenderer.class) {
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ShellSectionRenderer, Xamarin.Forms.Platform.Android", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

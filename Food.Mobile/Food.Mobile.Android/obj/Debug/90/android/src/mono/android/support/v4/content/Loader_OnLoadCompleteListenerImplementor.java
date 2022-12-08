@@ -20,8 +20,9 @@ public class Loader_OnLoadCompleteListenerImplementor
 	public Loader_OnLoadCompleteListenerImplementor ()
 	{
 		super ();
-		if (getClass () == Loader_OnLoadCompleteListenerImplementor.class)
+		if (getClass () == Loader_OnLoadCompleteListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Android.Support.V4.Content.Loader+IOnLoadCompleteListenerImplementor, Xamarin.Android.Support.Loader", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 

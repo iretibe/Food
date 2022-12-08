@@ -20,8 +20,9 @@ public class OnApplyWindowInsetsListenerImplementor
 	public OnApplyWindowInsetsListenerImplementor ()
 	{
 		super ();
-		if (getClass () == OnApplyWindowInsetsListenerImplementor.class)
+		if (getClass () == OnApplyWindowInsetsListenerImplementor.class) {
 			mono.android.TypeManager.Activate ("Android.Support.V4.View.IOnApplyWindowInsetsListenerImplementor, Xamarin.Android.Support.Compat", "", this, new java.lang.Object[] {  });
+		}
 	}
 
 
