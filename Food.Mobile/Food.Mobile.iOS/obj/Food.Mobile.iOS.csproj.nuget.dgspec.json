@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PROJECT\\Food\\Food.Mobile\\Food.Mobile.iOS\\Food.Mobile.iOS.csproj": {}
+    "C:\\PROJECTS\\Food\\Food.Mobile\\Food.Mobile.iOS\\Food.Mobile.iOS.csproj": {}
   },
   "projects": {
-    "C:\\PROJECT\\Food\\Food.Mobile\\Food.Mobile.iOS\\Food.Mobile.iOS.csproj": {
+    "C:\\PROJECTS\\Food\\Food.Mobile\\Food.Mobile.iOS\\Food.Mobile.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PROJECT\\Food\\Food.Mobile\\Food.Mobile.iOS\\Food.Mobile.iOS.csproj",
+        "projectUniqueName": "C:\\PROJECTS\\Food\\Food.Mobile\\Food.Mobile.iOS\\Food.Mobile.iOS.csproj",
         "projectName": "Food.Mobile.iOS",
-        "projectPath": "C:\\PROJECT\\Food\\Food.Mobile\\Food.Mobile.iOS\\Food.Mobile.iOS.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\PROJECT\\Food\\Food.Mobile\\Food.Mobile.iOS\\obj\\",
+        "projectPath": "C:\\PROJECTS\\Food\\Food.Mobile\\Food.Mobile.iOS\\Food.Mobile.iOS.csproj",
+        "packagesPath": "C:\\Users\\Somad\\.nuget\\packages\\",
+        "outputPath": "C:\\PROJECTS\\Food\\Food.Mobile\\Food.Mobile.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Somad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\PROJECT\\Food\\Food.Mobile\\Food.Mobile\\Food.Mobile.csproj": {
-                "projectPath": "C:\\PROJECT\\Food\\Food.Mobile\\Food.Mobile\\Food.Mobile.csproj"
+              "C:\\PROJECTS\\Food\\Food.Mobile\\Food.Mobile\\Food.Mobile.csproj": {
+                "projectPath": "C:\\PROJECTS\\Food\\Food.Mobile\\Food.Mobile\\Food.Mobile.csproj"
               }
             }
           }
@@ -73,21 +73,20 @@
         }
       }
     },
-    "C:\\PROJECT\\Food\\Food.Mobile\\Food.Mobile\\Food.Mobile.csproj": {
+    "C:\\PROJECTS\\Food\\Food.Mobile\\Food.Mobile\\Food.Mobile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PROJECT\\Food\\Food.Mobile\\Food.Mobile\\Food.Mobile.csproj",
+        "projectUniqueName": "C:\\PROJECTS\\Food\\Food.Mobile\\Food.Mobile\\Food.Mobile.csproj",
         "projectName": "Food.Mobile",
-        "projectPath": "C:\\PROJECT\\Food\\Food.Mobile\\Food.Mobile\\Food.Mobile.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\PROJECT\\Food\\Food.Mobile\\Food.Mobile\\obj\\",
+        "projectPath": "C:\\PROJECTS\\Food\\Food.Mobile\\Food.Mobile\\Food.Mobile.csproj",
+        "packagesPath": "C:\\Users\\Somad\\.nuget\\packages\\",
+        "outputPath": "C:\\PROJECTS\\Food\\Food.Mobile\\Food.Mobile\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Somad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -131,11 +130,11 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.3.1, )"
+              "version": "[1.7.5, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.4.0.991265, )"
+              "version": "[5.0.0.2545, )"
             }
           },
           "imports": [
@@ -149,7 +148,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.1.22431.12\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
