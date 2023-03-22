@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CJUfFg4PhSDOUFpHCOV4LKc60hnyFdl1X20Z6JEWeBkU9lq+7QZF5NaK4ddmF/n5lKcVkFyDzKJQWhwfr6TaXw==",
+  "dgSpecHash": "Hu4+6dyI+yfzDior/o3qd2x66tAHLD8C3m0ICvj8+wJ+jiWbjbfbbTHXHd4677RONAe4+i2fAnq3AwLYgwfBWQ==",
   "success": true,
   "projectFilePath": "C:\\PROJECTS\\Food\\FoodAPI\\FoodAPI.csproj",
   "expectedPackageFiles": [
@@ -178,7 +178,11 @@
     "C:\\Users\\Somad\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Somad\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Somad\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Somad\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Somad\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.15\\microsoft.windowsdesktop.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.15\\microsoft.netcore.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.15\\microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512",
+    "C:\\Users\\Somad\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.15\\microsoft.netcore.app.host.win-x64.6.0.15.nupkg.sha512"
   ],
   "logs": []
 }
